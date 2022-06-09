@@ -25,3 +25,5 @@ Libary that contains the generated Kotlin OpenApi Code
 * /specs/ contains the OpenApi Model
 #### Backend
 Backend Server Needs the Shared library to run, hibernate creates the necessary Database 
+# Testing
+Import Shared/specs/basic.yml in Postman and try some API Calls. All security features are disabled

@@ -6,12 +6,12 @@ info:
   termsOfService: ''
 
 servers:
+  - url: http://localhost:8080/v1
+    description: Dev Server
   - url: http://api.example.com/v1
     description: Optional server description, e.g. Main (production) server
   - url: http://staging-api.example.com/v1
     description: Optional server description, e.g. Internal staging server for testing
-  - url: localhost:8080/v1
-    description: Dev Server
 
 paths:
   /users:
